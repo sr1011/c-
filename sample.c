@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("こんにちは。私の名前は櫻井僚です。\n");
+    printf("こんにちは。\a\a\a\n");
     return 0;
 }
