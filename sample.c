@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("13と37の和は%dです。",15 ＋ 37);
+    printf("こんにちは。私の名前は櫻井僚です。\n");
     return 0;
 }
