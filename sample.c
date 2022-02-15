@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("こんにちは。\a\a\a\n");
+    printf("守\n破\n離\n");
     return 0;
 }
