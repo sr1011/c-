@@ -2,6 +2,12 @@
 
 int main(void)
 {
-    printf("こんにちは。\nお元気ですか。\n\nさようなら。\n");
-    return 0;
+  int x, y;
+  x = 57;
+  y = x + 12;
+
+  printf("xの値は%dです。\n", x);
+  printf("yの値は%dです。\n", y);
+
+  return 0;
 }
