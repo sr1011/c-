@@ -7,7 +7,7 @@ int main(void)
   printf("整数を入力してください　：");
   scanf("%d", &no);
 
-  printf("その数の5倍は%dです。\n",5 * no);
+  printf("%dに13を加えると%dです。\n",no,no + 13);
 
   return 0;
 }
