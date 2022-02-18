@@ -2,11 +2,12 @@
 
 int main(void)
 {
-  int x = 57;
-  int y = x + 12;
+  int no;
 
-  printf("xの値は%dです。\n", x);
-  printf("yの値は%dです。\n", y);
+  printf("整数を入力してください　：");
+  scanf("%d", &no);
+
+  printf("あなたは%dと入力しましたね。 \n", no);
 
   return 0;
 }
