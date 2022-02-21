@@ -2,17 +2,12 @@
 
 int main(void)
 {
-  int x, y;
+  int no;
 
-  puts("2つの整数を入力してください。");
-  printf("整数x："); scanf("%d",&x);
-  printf("整数y："); scanf("%d",&y);
-
-  printf("x + y = %d\n", x + y);
-  printf("x - y = %d\n", x - y);
-  printf("x * y = %d\n", x * y);
-  printf("x / y = %d\n", x / y);
-  printf("x %% y = %d\n", x % y);
+  puts("整数を入力せよ：");
+  scanf("%d",&no);
+  
+  printf("最下位桁は%dです。\n", no % 10);
 
   return 0;
 }
