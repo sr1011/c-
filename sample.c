@@ -8,7 +8,7 @@ int main(void)
   printf("整数a："); scanf("%d",&a);
   printf("整数b："); scanf("%d",&b);
   
-  printf("aをbで割ると%dあまり%dです。\n", a /b, a % b);
+  printf("それらの和は%dで積は%dです。\n", a + b, a * b);
 
   return 0;
 }
