@@ -2,12 +2,13 @@
 
 int main(void)
 {
-  int no;
+  int a, b;
 
-  puts("整数を入力せよ：");
-  scanf("%d",&no);
+  puts("二つの整数を入力せよ：");
+  printf("整数a："); scanf("%d",&a);
+  printf("整数b："); scanf("%d",&b);
   
-  printf("最下位桁は%dです。\n", no % 10);
+  printf("aをbで割ると%dあまり%dです。\n", a /b, a % b);
 
   return 0;
 }
