@@ -2,12 +2,13 @@
 
 int main(void)
 {
-  int num;
+  int a, b;
 
-  puts("整数を入力せよ：");
-  scanf("%d",&num);
-
-  printf("%dの符号を反転させた値は%dです。\n", +num, -num);
+  puts("二つの整数を入力せよ：");
+  printf("整数a："); scanf("%d",&a);
+  printf("整数b："); scanf("%d",&b);
+  
+  printf("それらの平均は%dです。\n", (a + b) / 2);
 
   return 0;
 }
