@@ -2,17 +2,16 @@
 
 int main(void)
 {
-  int n;
-  double x;
+  double x, y;
 
-  n = 9;
-  x = 9.99;
+  puts("整数を入力せよ：");
+  printf("整数x："); scanf("%lf",&x);
+  printf("整数y："); scanf("%lf",&y);
 
-  printf("int 型変数 nの値：%d\n", n);
-  printf("           n/2 :%d\n", n / 2);
-
-  printf("double 型変数 xの値：%f\n", x);
-  printf("            x/2.0 :%f\n", x / 2);
-
+  printf("x + y = %f\n", x + y);
+  printf("x - y = %f\n", x - y);
+  printf("x * y = %f\n", x * y);
+  printf("x / y = %f\n", x / y);
+  
   return 0;
 }
