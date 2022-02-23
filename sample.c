@@ -2,13 +2,17 @@
 
 int main(void)
 {
-  int a, b;
+  int n;
+  double x;
 
-  puts("二つの整数を入力せよ：");
-  printf("整数a："); scanf("%d",&a);
-  printf("整数b："); scanf("%d",&b);
-  
-  printf("それらの平均は%dです。\n", (a + b) / 2);
+  n = 9;
+  x = 9.99;
+
+  printf("int 型変数 nの値：%d\n", n);
+  printf("           n/2 :%d\n", n / 2);
+
+  printf("double 型変数 xの値：%f\n", x);
+  printf("            x/2.0 :%f\n", x / 2);
 
   return 0;
 }
