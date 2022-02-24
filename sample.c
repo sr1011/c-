@@ -2,12 +2,13 @@
 
 int main(void)
 {
-  double x, y;
+  int a, b;
 
-  puts("整数を入力せよ：");
-  printf("整数x："); scanf("%lf",&x);
+  puts("二つの整数を入力せよ：");
+  printf("整数a："); scanf("%d",&a);
+  printf("整数b："); scanf("%d",&b);
 
-  printf("あなたは%fと入力しましたね。\n", x);
+  printf("それらの平均は%fです。\n", (a + b) / 2.0);
 
   return 0;
 }
