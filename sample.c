@@ -8,7 +8,7 @@ int main(void)
   printf("整数a："); scanf("%d",&a);
   printf("整数b："); scanf("%d",&b);
 
-  printf("それらの平均は%fです。\n", (double)(a + b) / 2);
+  printf("aの値はbの値の%f%%です。\n", (double) a*100 / b);
 
   return 0;
 }
