@@ -2,18 +2,13 @@
 
 int main(void)
 {
-  int a, b, c;
+  int n;
 
-  puts("三つの整数を入力せよ：");
-  printf("整数a："); scanf("%d",&a);
-  printf("整数b："); scanf("%d",&b);
-  printf("整数c："); scanf("%d",&c);
-
-  int sum = a + b + c;
-  double ave = (double)sum / 3;
-
-  printf("それらの合計は%5dです、\n", sum);
-  printf("それらの平均は%5.1fです、\n", ave);
+  printf("整数を入力せよ：");
+  scanf("%d",&n);
+  
+  if (n % 5)
+  puts ("その数は5で割り切れません。");
 
   return 0;
 }
