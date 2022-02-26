@@ -7,8 +7,8 @@ int main(void)
   printf("整数を入力せよ：");
   scanf("%d",&n);
   
-  if (n % 5)
-  puts ("その数は5で割り切れません。");
+  if (n % 2)
+  puts ("その数は奇数です。");
 
   return 0;
 }
