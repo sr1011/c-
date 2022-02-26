@@ -2,16 +2,15 @@
 
 int main(void)
 {
-  int a, b;
+  int num;
 
-  printf("二つの整数を入力せよ：\n");
-  printf("整数A："); scanf("%d",&a);
-  printf("整数B："); scanf("%d",&b);
+  printf("整数を入力せよ：\n");
+  scanf("%d",&num);
   
-  if (a % b)
-  puts ("BはAの約数ではありません。");
+  if (num)
+  puts ("その数はゼロではありません。");
   else
-  puts("BはAの約数です。");
+  puts("その数はゼロです。");
 
   return 0;
 }
