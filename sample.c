@@ -8,10 +8,10 @@ int main(void)
   printf("整数１："); scanf("%d",&n1);
   printf("整数２："); scanf("%d",&n2);
 
-  if (n1 == n2)
-    puts("それらの値は同じです。");
-  else
+  if (n1 != n2)
     puts("それらの値は違います。");
+  else
+    puts("それらの値は同じです。");
   
   return 0;
 }
