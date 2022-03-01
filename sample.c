@@ -2,15 +2,17 @@
 
 int main(void)
 {
-  int num;
+  int no;
 
   printf("整数を入力せよ：");
-  scanf("%d",&num);
+  scanf("%d",&no);
 
-  if ((num % 10) == 5)
-    puts("最下位の桁は5です。");
+  if (no == 0)
+    puts("その数は0です。");
+  else if (no > 0 )
+    puts("その数は正です。");
   else
-    puts("最下位の桁は5ではありません。");
+  puts("その数は負です。");
   
   return 0;
 }
