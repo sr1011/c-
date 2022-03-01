@@ -2,16 +2,15 @@
 
 int main(void)
 {
-  int n1, n2;
+  int num;
 
-  puts("二つの整数を入力せよ");
-  printf("整数１："); scanf("%d",&n1);
-  printf("整数２："); scanf("%d",&n2);
+  printf("整数を入力せよ：");
+  scanf("%d",&num);
 
-  if (n1 != n2)
-    puts("それらの値は違います。");
+  if ((num % 10) == 5)
+    puts("最下位の桁は5です。");
   else
-    puts("それらの値は同じです。");
+    puts("最下位の桁は5ではありません。");
   
   return 0;
 }
