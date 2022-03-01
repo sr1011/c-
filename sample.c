@@ -2,17 +2,15 @@
 
 int main(void)
 {
-  int no;
+  int num;
 
   printf("整数を入力せよ：");
-  scanf("%d",&no);
+  scanf("%d",&num);
 
-  if (no == 0)
-    puts("その数は0です。");
-  else if (no > 0)
-    puts("その数は正です。");
-  else　if (no < 0)
-  puts("その数は負です。");
+  if (num < 0)
+        num = -num;
+    
+    printf("絶対値は%dです。\n", num);
   
   return 0;
 }
