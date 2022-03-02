@@ -2,18 +2,18 @@
 
 int main(void)
 {
-  int n1, n2;
+  int no;
 
-  printf("整数を入力せよ：\n");
-  printf("整数１："); scanf("%d",&n1);
-  printf("整数２："); scanf("%d",&n2);
+  printf("整数を入力せよ：");
+  scanf("%d",&no);
 
-  if (n1 == n2)
-    puts("AとBは等しいです。");
-  else if (n1 > n2)
-    puts("AはBより大きいです。");
+  if (no > 0)
+    if (no % 2 == 0)
+      puts("その数は偶数です。");
+    else 
+      puts("その数は奇数です。");
   else
-  puts("AはBより小さいです。");
-  
+   puts("正でない数は入力されました。");
+
   return 0;
 }
