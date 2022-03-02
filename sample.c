@@ -13,7 +13,7 @@ int main(void)
     else 
       puts("その数は奇数です。");
   else
-   puts("正でない数は入力されました。");
+   puts("正でない数が入力されました。\a\n");
 
   return 0;
 }
