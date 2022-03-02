@@ -2,18 +2,16 @@
 
 int main(void)
 {
-  int no;
+  int n1, n2;
 
-  printf("整数を入力せよ：");
-  scanf("%d",&no);
+  puts("整数を入力せよ");
+  printf("整数１："); scanf("%d",&n1);
+  printf("整数２："); scanf("%d",&n2);
 
-  if (no > 0)
-    if (no % 2 == 0)
-      puts("その数は偶数です。");
-    else 
-      puts("その数は奇数です。");
+  if (n1 > n2)
+    printf("大きい方の値は%dです。\n", n1);
   else
-   puts("正でない数が入力されました。\a\n");
-
+    printf("大きい方の値は%dです。\n", n2);
+  
   return 0;
 }
