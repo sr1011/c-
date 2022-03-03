@@ -10,11 +10,11 @@ int main(void)
   printf("整数３："); scanf("%d",&n3);
 
 
-  int max = n1;
-  if (n2 > max) max = n2;
-  if (n3 > max) max = n3;
+  int min = n1;
+  if (min > n2) min = n2;
+  if (min > n3) min = n3;
 
-   printf("最大値は%dです。\n", max);
+   printf("最大値は%dです。\n", min);
   
   return 0;
 }
