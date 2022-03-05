@@ -8,7 +8,17 @@ int main(void)
   printf("整数１："); scanf("%d",&n1);
   printf("整数２："); scanf("%d",&n2);
 
-  n1 == n2 ? printf("それらの値は同じです。\n") : printf("それらの値は違います。\n");
+  int max, min;
+  if (n1 > n2){
+    max = n1;
+    min = n2;
+  }else{
+    max = n2;
+    min = n1;
+  }
+
+  printf("大きい方の値は%dです。\n", max);
+  printf("小さい方の値は%dです。\n", min);
  
   return 0;
 }
