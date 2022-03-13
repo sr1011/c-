@@ -2,23 +2,21 @@
 
 int main(void)
 {
-  int n1, n2;
+  int month;
 
-  puts("二つの整数を入力せよ");
-  printf("整数１："); scanf("%d",&n1);
-  printf("整数２："); scanf("%d",&n2);
+  printf("何月ですか：");
+  scanf("%d",&month);
 
-  int max, min;
-  if (n1 > n2){
-    max = n1;
-    min = n2;
-  }else{
-    max = n2;
-    min = n1;
-  }
-
-  printf("大きい方の値は%dです。\n", max);
-  printf("小さい方の値は%dです。\n", min);
+  if (month >= 3 && month <= 5)
+   printf("%d月は春です。\n", month);
+  else if (month >= 6 && month <= 8)
+    printf("%d月は夏です。\n", month);
+  else if (month >= 9 && month <= 11)
+    printf("%d月は秋です。\n", month);
+  else if (month == 1 || month == 2 || month == 12)
+    printf("%d月は冬です。\n", month);
+  else
+    printf("%d月はありませんよ！！\a\n", month);
  
   return 0;
 }
